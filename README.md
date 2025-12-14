@@ -1,6 +1,11 @@
 # RoutineDiary (루틴다이어리)
 
-루틴, 할 일, 감정일기, 챌린지를 하나의 흐름으로 기록하고  
+
+![Release](https://img.shields.io/github/v/release/hyesulee-dev/RoutineDiary)
+![License](https://img.shields.io/github/license/hyesulee-dev/RoutineDiary)
+
+
+할 일, 감정일기, 챌린지를 하나의 흐름으로 기록하고  
 하루를 돌아볼 수 있도록 설계된 **오프라인 우선 개인 다이어리 앱**입니다.
 
 이 프로젝트는  
