@@ -1,4 +1,4 @@
-# RoutineDiary (루틴다이어리)
+# RoutineDiary
 
 
 ![Release](https://img.shields.io/github/v/release/hyesulee-dev/RoutineDiary)
@@ -14,7 +14,7 @@
 
 ---
 
-## 📖 프로젝트 시작 배경
+## 프로젝트 시작 배경
 
 RoutineDiary는 단순한 할 일 관리 앱이 아닙니다.
 
@@ -28,7 +28,7 @@ RoutineDiary는 단순한 할 일 관리 앱이 아닙니다.
 
 ---
 
-## 🎯 초기 앱 기획 방향
+## 초기 앱 기획 방향
 
 - 루틴 / 투두 / 일기 / 챌린지를 분리하지 않는다
 - 로그인 없이도 완전 사용 가능해야 한다
@@ -38,7 +38,7 @@ RoutineDiary는 단순한 할 일 관리 앱이 아닙니다.
 
 ---
 
-## 🧩 핵심 설계 원칙
+## 핵심 설계 원칙
 
 ### 1. 오프라인 우선 (Offline-first)
 - 로그인 전: 모든 데이터는 **Room 로컬 DB**에만 저장
@@ -57,15 +57,15 @@ RoutineDiary는 단순한 할 일 관리 앱이 아닙니다.
 
 ---
 
-## 🧠 핵심 기능
+## 핵심 기능
 
-### 루틴 / 투두 (Todo)
+### 할 일 (todo)
 - 날짜 기반 투두 관리 (LocalDate)
 - 완료/미완료 토글 즉시 반영 (Flow 기반)
 - 카테고리 선택 및 색상 표시
 - 카테고리 변경·삭제 이후에도 과거 투두 화면 유지 (스냅샷 전략)
 - 전체 완료 시 이벤트 트리거 (광고 등)
-
+ 
 ### 감정 일기 (Diary)
 - 날짜별 감정 이모지 + 텍스트 기록
 - 사진 첨부 지원
@@ -96,7 +96,7 @@ RoutineDiary는 단순한 할 일 관리 앱이 아닙니다.
 
 ---
 
-## 🛠 기술 스택
+## 기술 스택
 
 ### Android
 - Kotlin
@@ -135,7 +135,7 @@ RoutineDiary는 단순한 할 일 관리 앱이 아닙니다.
 
 ---
 
-## 🏗 아키텍처 개요
+## 아키텍처 개요
 
 ```text
 UI (Jetpack Compose)
@@ -160,7 +160,7 @@ UI (Jetpack Compose)
 
 ---
 
-## 🔁 오프라인 우선 + 동기화 전략
+## 오프라인 우선 + 동기화 전략
 
 ### 기본 동작 흐름
 
@@ -196,7 +196,7 @@ UI (Jetpack Compose)
   - 데이터 변경 시 UI가 즉시 갱신됨
 
 
-## 🔥 Firebase / Firestore 구조
+## Firebase / Firestore 구조
 
 
 ```text
@@ -226,7 +226,7 @@ users/{uid}
 
 ---
 
-## 📐 네비게이션 구조
+## 네비게이션 구조
 
 - Bottom Navigation 기반의 주요 탭 구성
   - Home
@@ -238,7 +238,7 @@ users/{uid}
 
 ---
 
-## 📢 광고 노출 정책
+## 광고 노출 정책
 
 ### 배너 광고
 - 메인 화면 하단에 고정 노출
